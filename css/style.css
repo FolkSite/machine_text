@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #37393B;
+  color: #fff;
+}
+
+.wrapper-text {
+  display: block;
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+.wave {
+  color: #f1ecbb;
+  -webkit-animation: 0.5s color infinite;
+          animation: 0.5s color infinite;
+}
+
+@-webkit-keyframes color {
+  50% {
+    color: #b1a064;
+  }
+}
+
+@keyframes color {
+  50% {
+    color: #b1a064;
+  }
+}
